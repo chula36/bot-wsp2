@@ -12,17 +12,28 @@
   },
   "keywords": [],
   "dependencies": {
+    "@adiwajshing/baileys": "^5.0.0",
     "@builderbot/bot": "1.1.7",
-    "@builderbot/provider-baileys": "1.1.7"
+    "@builderbot/provider-baileys": "1.1.7",
+    "@hapi/boom": "^10.0.1",
+    "@whiskeysockets/baileys": "^6.7.5",
+    "axios": "^1.7.2",
+    "botbuilder": "^4.22.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "google-auth-library": "^9.11.0",
+    "google-spreadsheet": "^4.1.2",
+    "node-fetch": "^3.3.2"
   },
   "devDependencies": {
+    "@types/axios": "^0.14.0",
     "@types/node": "^20.11.30",
     "@typescript-eslint/eslint-plugin": "^7.2.0",
     "@typescript-eslint/parser": "^7.4.0",
     "eslint": "^8.52.0",
     "eslint-plugin-builderbot": "latest",
-    "rollup": "^4.10.0",
     "nodemon": "^3.1.0",
+    "rollup": "^4.10.0",
     "rollup-plugin-typescript2": "^0.36.0",
     "tsx": "^4.7.1",
     "typescript": "^5.4.3"

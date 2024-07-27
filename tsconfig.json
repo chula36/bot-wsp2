@@ -2,8 +2,6 @@
   "compilerOptions": {
     "target": "ES2022",
     "module": "ES2022",
-    "declaration": false,
-    "declarationMap": false,
     "moduleResolution": "node",
     "removeComments": true,
     "emitDecoratorMetadata": true,
@@ -15,13 +13,13 @@
     "rootDir": "./",
     "incremental": true,
     "skipLibCheck": true,
+    "resolveJsonModule": true,  // Habilita la importación de archivos JSON
     "paths": {
       "~/*": ["./src/*"]
     }
   },
   "include": [
-    "**/*.js",
-    "**/*.ts"
+    "**/*.ts"  // Solo incluye archivos TypeScript en la compilación
   ],
   "exclude": [
     "node_modules",
